@@ -6,9 +6,12 @@ epqd_client_lib (github.com/ExpressPQDelivery/epqd_client_lib) and epqd_server_l
 # How to compile
 > make all
 
-# How to run 
+# How to run PQC-TLS1.3
 ./server [port] [algorithm]  
-./client_tls [domain_address] [port] [algorithm]  
+./client_tls [domain_address] [port] [algorithm]   
+
+# How to run ExpressPQDelivery-applied PQC-TLS1.3
+./server [port] [algorithm]  
 ./client_epqd [domain_address] [port] [algorithm]  
 
 algorithm:  
@@ -19,8 +22,8 @@ algorithm:
 - FALCON1024: fal1024
 
 # Prerequisite
-> intstall github.com/ExpressPQDelivery/epqd_client_lib for client
-> intstall github.com/ExpressPQDelivery/epqd_server_lib for server
+> intstall github.com/ExpressPQDelivery/epqd_client_lib for client  
+> intstall github.com/ExpressPQDelivery/epqd_server_lib for server  
 
 # TroubleShooting
 1. add environment variables
