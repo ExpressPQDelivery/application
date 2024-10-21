@@ -7,10 +7,17 @@ epqd_client_lib (github.com/ExpressPQDelivery/epqd_client_lib) and epqd_server_l
 > make all
 
 # How to run 
-> ./server [port] [algorithm]
-> ./client [domain_address] [port] [algorithm]
-algorithm: DILITHIUM2: dil2, DILITHIUM3: dil3, DILITHIUM5: dil5,
-FALCON512: fal512, FALCON1024: fal1024
+./server [port] [algorithm]  
+./client_tls [domain_address] [port] [algorithm]  
+./client_epqd [domain_address] [port] [algorithm]  
+
+algorithm:  
+- DILITHIUM2: dil2  
+- DILITHIUM3: dil3  
+- DILITHIUM5: dil5  
+- FALCON512: fal512  
+- FALCON1024: fal1024
+
 # Prerequisite
 > intstall github.com/ExpressPQDelivery/epqd_client_lib for client
 > intstall github.com/ExpressPQDelivery/epqd_server_lib for server
