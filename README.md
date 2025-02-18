@@ -1,7 +1,7 @@
-Welcome to the ExpressPQDelivery Project
+Welcome to the ExᴘʀᴇssPQDᴇʟɪᴠᴇʀʏ Project
 ==============================
-- The ExpressPQDelivery is a project that provides example servers and clients that perform ExpressPQDelivery-applied PQC-TLS1.3 handshake using epqd_client_lib and epqd_server_lib.  
-- epqd_client_lib (github.com/ExpressPQDelivery/epqd_client_lib) and epqd_server_lib (github.com/ExpressPQDelivery/epqd_server_lib) are libraries that implement ExpressPQDelivery handshake based on OpenSSL.
+- The ExᴘʀᴇssPQDᴇʟɪᴠᴇʀʏ is a project that provides example servers and clients that perform ExᴘʀᴇssPQDᴇʟɪᴠᴇʀʏ-applied PQC-TLS1.3 handshake using `epqd_client_lib` and `epqd_server_lib`.  
+- [epqd_client_lib](https://github.com/ExpressPQDelivery/epqd_client_lib) and [epqd_server_lib](https://github.com/ExpressPQDelivery/epqd_server_lib) are libraries that implement ExᴘʀᴇssPQDᴇʟɪᴠᴇʀʏ handshake based on OpenSSL.
 
 # How to compile
 > make all
@@ -21,7 +21,7 @@ algorithm:
 server: ./server 12400 dil2  
 client: ./client_tls helloworld.io 12400 dil2  
 
-# How to run ExpressPQDelivery-applied PQC-TLS1.3
+# How to run ExᴘʀᴇssPQDᴇʟɪᴠᴇʀʏ-applied PQC-TLS1.3
 ./server [port] [algorithm]  
 ./client_epqd [domain_address] [port] [algorithm]  
 
