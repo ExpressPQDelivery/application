@@ -7,8 +7,8 @@ Welcome to the ExᴘʀᴇssPQDᴇʟɪᴠᴇʀʏ Project
 > make all
 
 # How to run PQC-TLS1.3
-./server [port] [algorithm]  
-./client_tls [domain_address] [port] [algorithm]   
+`./server [port] [algorithm]`  
+`./client_tls [domain_address] [port] [algorithm]`   
 
 algorithm:  
 - DILITHIUM2: dil2  
@@ -18,12 +18,12 @@ algorithm:
 - FALCON1024: fal1024  
 
 for example,  
-server: ./server 12400 dil2  
-client: ./client_tls helloworld.io 12400 dil2  
+server: `./server 12400 dil2`  
+client: `./client_tls helloworld.io 12400 dil2`  
 
 # How to run ExᴘʀᴇssPQDᴇʟɪᴠᴇʀʏ-applied PQC-TLS1.3
-./server [port] [algorithm]  
-./client_epqd [domain_address] [port] [algorithm]  
+`./server [port] [algorithm]`  
+`./client_epqd [domain_address] [port] [algorithm]`  
 
 algorithm:  
 - DILITHIUM2: dil2  
@@ -33,8 +33,8 @@ algorithm:
 - FALCON1024: fal1024  
 
 for example,  
-server: ./server 12400 dil2  
-client: ./client_epqd helloworld.io 12400 dil2  
+server: `./server 12400 dil2`  
+client: `./client_epqd helloworld.io 12400 dil2`  
 
 # Prerequisite
 > intstall [epqd_client_lib](https://github.com/ExpressPQDelivery/epqd_client_lib) for client  
