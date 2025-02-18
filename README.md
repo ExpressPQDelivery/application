@@ -3,6 +3,10 @@
 - The ExᴘʀᴇssPQDᴇʟɪᴠᴇʀʏ is a project that provides example servers and clients that perform ExᴘʀᴇssPQDᴇʟɪᴠᴇʀʏ-applied PQC-TLS1.3 handshake using `epqd_client_lib` and `epqd_server_lib`.  
 - [epqd_client_lib](https://github.com/ExpressPQDelivery/epqd_client_lib) and [epqd_server_lib](https://github.com/ExpressPQDelivery/epqd_server_lib) are libraries that implement ExᴘʀᴇssPQDᴇʟɪᴠᴇʀʏ handshake based on OpenSSL.
 
+## Prerequisite
+> intstall [epqd_client_lib](https://github.com/ExpressPQDelivery/epqd_client_lib) for client  
+> intstall [epqd_server_lib](https://github.com/ExpressPQDelivery/epqd_server_lib) for server 
+
 ## How to compile
 > make all
 
@@ -34,11 +38,7 @@ algorithm:
 
 for example,  
 server: `./server 12400 dil2`  
-client: `./client_tls helloworld.io 12400 dil2`  
-
-## Prerequisite
-> intstall [epqd_client_lib](https://github.com/ExpressPQDelivery/epqd_client_lib) for client  
-> intstall [epqd_server_lib](https://github.com/ExpressPQDelivery/epqd_server_lib) for server  
+client: `./client_tls helloworld.io 12400 dil2`   
 
 ## TroubleShooting
 1. add environment variables
