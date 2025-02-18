@@ -17,7 +17,7 @@ algorithm:
 - FALCON512: fal512  
 - FALCON1024: fal1024  
 
-//for example  
+for example,
 server: ./server 12400 dil2  
 client: ./client_tls helloworld.io 12400 dil2  
 
@@ -32,7 +32,7 @@ algorithm:
 - FALCON512: fal512  
 - FALCON1024: fal1024  
 
-//for example  
+for example,
 server: ./server 12400 dil2  
 client: ./client_epqd helloworld.io 12400 dil2  
 
