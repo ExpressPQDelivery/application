@@ -37,9 +37,9 @@ server: ./server 12400 dil2
 client: ./client_epqd helloworld.io 12400 dil2  
 
 # Prerequisite
-> intstall github.com/ExpressPQDelivery/epqd_client_lib for client  
-> intstall github.com/ExpressPQDelivery/epqd_server_lib for server  
+> intstall [epqd_client_lib](https://github.com/ExpressPQDelivery/epqd_client_lib) for client  
+> intstall [epqd_server_lib](https://github.com/ExpressPQDelivery/epqd_server_lib) for server  
 
 # TroubleShooting
 1. add environment variables
-export LD_LIBRARY_PATH=/usr/local/lib64
+`export LD_LIBRARY_PATH=/usr/local/lib64`
