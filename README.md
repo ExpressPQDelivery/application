@@ -1,5 +1,4 @@
 # ExᴘʀᴇssPQDᴇʟɪᴠᴇʀʏ based on OpenSSL with Post-Quantum Algorithms
-==============================
 - The ExᴘʀᴇssPQDᴇʟɪᴠᴇʀʏ is a project that provides example servers and clients that perform ExᴘʀᴇssPQDᴇʟɪᴠᴇʀʏ-applied PQC-TLS1.3 handshake using `epqd_client_lib` and `epqd_server_lib`.  
 - [epqd_client_lib](https://github.com/ExpressPQDelivery/epqd_client_lib) and [epqd_server_lib](https://github.com/ExpressPQDelivery/epqd_server_lib) are libraries that implement ExᴘʀᴇssPQDᴇʟɪᴠᴇʀʏ handshake based on OpenSSL.
 
